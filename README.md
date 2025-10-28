@@ -4,22 +4,6 @@ A retrieval-augmented generation (RAG) system tailored for aerospace maintenance
 
 ---
 
-## 📌 Table of Contents
-
-* [Motivation](#motivation)
-* [Overview](#overview)
-* [Features](#features)
-* [Repository Structure](#repository-structure)
-* [Getting Started](#getting-started)
-* [Configuration](#configuration)
-* [Usage](#usage)
-* [Example Workflow](#example-workflow)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-
----
-
 ## Motivation
 
 In aerospace MRO domains, documentation is often voluminous, diverse (PDFs, scans, manuals, OEM instructions) and richly structured.
