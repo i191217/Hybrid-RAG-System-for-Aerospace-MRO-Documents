@@ -1,0 +1,80 @@
+# Core dependencies
+python-dotenv>=1.0.0
+boto3>=1.35.0
+openai>=1.80.0
+
+# Vector databases
+qdrant-client>=1.7.0
+chromadb>=0.4.20
+pinecone-client>=2.2.0
+python-multipart
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn
+rank_bm25>=0.2.2
+python-Levenshtein>=0.23.0
+# sqlite3 and pathlib are built-in with Python
+
+# Web framework (optional, for API)
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# Logging and utilities
+structlog>=23.0.0
+rich>=13.0.0
+click>=8.1.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.7.0
+
+# PDF extraction libraries for comparison
+PyPDF2
+pdfplumber
+pdfminer.six
+openpyxl
+python-docx
+pandas
+unstructured[pdf]>=0.10.0
+layoutparser
+unstructured.pytesseract
+unstructured.PaddleOCR
+paddlepaddle
+
+# OCR and Image Processing Dependencies
+# Note: Tesseract OCR binary needs to be installed separately on your system
+easyocr
+pdf2image
+Pillow
+opencv-python
+PyMuPDF
+tqdm
+
+# Spell Correction and NLP
+python-Levenshtein>=0.21.0
+spacy>=3.7.0
+
+# Performance monitoring
+psutil>=5.9.0
+
+############################################
+
+flask
+flask-cors
+
+# RAGAS
+ragas
+datasets
+ipykernel
+
+
+############################################
+pyspellchecker
+rapidfuzz
+pypdf
+spacy
